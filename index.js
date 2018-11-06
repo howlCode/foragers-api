@@ -1,9 +1,11 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cookieSession = require("cookie-session");
 const passport = require("passport");
 const keys = require("./config/keys");
 require("./models/User");
+require("./models/Shroom");
 require("./services/passport");
 
 mongoose.connect(
@@ -14,6 +16,7 @@ mongoose.connect(
 );
 
 const app = express();
+app.use(bodyParser.json());
 
 app.use(
   cookieSession({

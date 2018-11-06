@@ -9,7 +9,8 @@ module.exports = products = [
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black"],
     stock: 50,
-    image: "./images/chanterelle_mushrooms_hoodie.jpg"
+    image:
+      "https://s3.us-east-2.amazonaws.com/foragers/chanterelle_mushrooms_hoodie.jpg"
   },
   {
     id: 2,
@@ -18,7 +19,7 @@ module.exports = products = [
     cost: 69.99,
     type: "Misc",
     stock: 10,
-    image: "./images/grow_shrooms.jpg"
+    image: "https://s3.us-east-2.amazonaws.com/foragers/grow_shrooms.jpg"
   },
   {
     id: 3,
@@ -27,7 +28,7 @@ module.exports = products = [
     cost: 5.99,
     type: "Misc",
     stock: 10,
-    image: "./images/id_poster.jpg"
+    image: "https://s3.us-east-2.amazonaws.com/foragers/id_poster.jpg"
   },
   {
     id: 4,
@@ -36,7 +37,8 @@ module.exports = products = [
     cost: 29.99,
     type: "Books",
     stock: 0,
-    image: "./images/mushroom-identification.jpg"
+    image:
+      "https://s3.us-east-2.amazonaws.com/foragers/mushroom-identification.jpg"
   },
   {
     id: 5,
@@ -48,6 +50,7 @@ module.exports = products = [
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["White"],
     stock: 20,
-    image: "./images/morel_mushrooms_baseball_jersey.jpg"
+    image:
+      "https://s3.us-east-2.amazonaws.com/foragers/morel_mushrooms_baseball_jersey.jpg"
   }
 ];
