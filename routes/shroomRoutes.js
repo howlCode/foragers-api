@@ -28,4 +28,19 @@ module.exports = app => {
       res.status(422).send(error);
     }
   });
+
+  app.delete("/api/shrooms/:id", requireLogin, async (req, res) => {
+    const user = req.user;
+    const shroomToFind = req.body.shroom.id;
+    const shroom = Shroom.findById(shroomToFind);
+
+    if (shroom._user === user) {
+      try {
+        await shroom.delete();
+        res.send("Mushroom successfully deleted from the database.");
+      } catch (error) {
+        res.status(422).send(error);
+      }
+    }
+  });
 };
