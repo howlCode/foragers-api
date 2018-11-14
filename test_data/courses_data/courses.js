@@ -26,7 +26,7 @@ module.exports = courses = [
     longitude: -78.7503,
     max_class_size: 20,
     participants: 7,
-    cost: "$10.00"
+    cost: 10
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ module.exports = courses = [
     longitude: -78.7503,
     max_class_size: 20,
     participants: 13,
-    cost: "$25.00"
+    cost: 25
   },
   {
     id: 4,
@@ -54,6 +54,6 @@ module.exports = courses = [
     longitude: -78.7503,
     max_class_size: 20,
     participants: 9,
-    cost: "$30.00"
+    cost: 30
   }
 ];
