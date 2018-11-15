@@ -4,7 +4,7 @@ module.exports = courses = [
     title: "Shroom Hunting",
     description:
       "Join us as we explore the local piedmont and identify common mushrooms in this area. We will likely find Chanterelles and yada yada yada yada yada yada yada.",
-    date: "October 29th",
+    date: "November 29th",
     time: "11:00 AM",
     facility: "Umstead Park",
     location: "Raleigh, NC",
@@ -12,13 +12,14 @@ module.exports = courses = [
     longitude: -78.7503,
     max_class_size: 10,
     participants: 5,
-    cost: "Free"
+    cost: 20
   },
   {
     id: 2,
     title: "Common Edible Mushrooms",
-    description: "Learn about edible shrooms",
-    date: "November 1st",
+    description:
+      "Learn about common edible mushrooms in this excellent introductory course!",
+    date: "November 21st",
     time: "09:00 AM",
     facility: "Umstead Park",
     location: "Raleigh, NC",
@@ -31,7 +32,8 @@ module.exports = courses = [
   {
     id: 3,
     title: "Wild Foraging Techniques and Best Practices",
-    description: "Learn how to forage",
+    description:
+      "Learn how to forage when you're out hiking and exploring the wilderness!",
     date: "November 1st",
     time: "09:00 AM",
     facility: "Umstead Park",
@@ -45,8 +47,8 @@ module.exports = courses = [
   {
     id: 4,
     title: "Your First Foraging Expedition",
-    description: "Learn",
-    date: "November 1st",
+    description: "Go out and explore the natural world! Some adventure!",
+    date: "November 3rd",
     time: "09:00 AM",
     facility: "Umstead Park",
     location: "Raleigh, NC",
