@@ -11,7 +11,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --cwd client && yarn run build --cwd client"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
