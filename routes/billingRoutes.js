@@ -15,7 +15,6 @@ module.exports = app => {
 
     const customer = req.body.token.email;
     const address = req.body.address;
-    const order = req.body.order;
     const orderTotal = req.body.amount;
     const emailContents = {
       subject: "Foragers: Order Confirmation",

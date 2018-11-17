@@ -52,5 +52,15 @@ module.exports = products = [
     stock: 20,
     image:
       "https://s3.us-east-2.amazonaws.com/foragers/morel_mushrooms_baseball_jersey.jpg"
+  },
+  {
+    id: 6,
+    name: "Mushroom Collage Hoodie",
+    description:
+      "A black hoodie featuring a collage of edible mushrooms on the front!",
+    cost: 29.99,
+    type: "Clothing",
+    stock: 15,
+    image: "https://s3.us-east-2.amazonaws.com/foragers/chanterlle-tshirt.png"
   }
 ];
