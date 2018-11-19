@@ -1,0 +1,34 @@
+.checkout-item {
+  border: 1px dotted #000;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.checkout-item-name {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.checkout-item-price {
+  font-weight: bold;
+}
+
+.subtotal {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0px 5px;
+}
+
+.change-order a {
+  margin: 5px 5px;
+}
+
+.review-img {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.review-img > img {
+  max-height: 84px;
+}

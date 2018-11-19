@@ -1,0 +1,49 @@
+.modal-content {
+  font-weight: bold;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 0.5px;
+  background: transparent;
+}
+
+.hand:hover {
+  cursor: pointer;
+}
+
+.course-title {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.date-time {
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0px 10px;
+}
+
+.status {
+  margin: 20px 0px;
+}
+
+.tag {
+  margin-left: 10px;
+}
+
+.course-description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0px 10px;
+}
+
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sign-up {
+  margin-top: 5px;
+}

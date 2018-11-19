@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,900");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+form {
+  width: 30%;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 2%;
+}
+
+.section {
+  min-height: 82vh;
+}

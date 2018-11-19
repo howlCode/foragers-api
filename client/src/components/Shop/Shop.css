@@ -1,0 +1,48 @@
+.columns {
+  margin-top: 20px !important;
+}
+
+.product-card {
+  height: 300px;
+  max-height: 300px;
+  max-width: 210px;
+  background-color: #f0f0f0;
+  border: 1px dotted #7f5347;
+  border-radius: 2%;
+  margin: 5px;
+}
+
+.product-image {
+  margin: auto;
+  text-align: center;
+  min-height: 175px;
+  max-height: 175px;
+}
+
+.product-name {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.price-line {
+  margin: 5px;
+}
+
+.price {
+  font-size: 1.1rem !important;
+  border-radius: 2%;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    margin: 10px 20px !important;
+  }
+  .product-card {
+    max-width: 100%;
+  }
+  .field {
+    text-align: center;
+    margin: 0;
+  }
+}

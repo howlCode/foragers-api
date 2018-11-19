@@ -1,0 +1,32 @@
+.modal-content {
+  font-weight: bold;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 0.5px;
+  background: transparent;
+}
+
+.product-modal-image {
+  max-height: 350px;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-modal-image > img {
+  border: 1px dotted #7f5347;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: auto;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 10px auto;
+}

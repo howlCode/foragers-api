@@ -1,0 +1,32 @@
+.modal-content {
+  font-weight: bold;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 0.5px;
+  background: transparent;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.genus {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.edibile {
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  font-weight: 400;
+}

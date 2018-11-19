@@ -1,0 +1,44 @@
+.shroom-basket {
+  background-image: url("basket-shrooms.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landing-background {
+  background-color: #b4ab9c;
+  min-height: 44.3vh;
+}
+
+.service-panel {
+  background-color: #7f5347;
+  margin: 10px;
+  border-radius: 2%;
+  color: #fff;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.service-panel > .subtitle {
+  color: #fff;
+}
+
+.service-panel a {
+  color: #b4ab9c;
+}
+
+.service-panel i {
+  margin-top: 5px;
+}
+
+.service-description {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 50px;
+  }
+  .shroom-basket {
+    height: 250px;
+  }
+}

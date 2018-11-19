@@ -1,0 +1,12 @@
+.table {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 500px) {
+  table {
+    margin-left: -10px;
+  }
+  .table {
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  }
+}

@@ -1,0 +1,22 @@
+.shroom-section {
+  background-color: #c5c2bd;
+}
+
+.label {
+  padding-right: 15px;
+  margin-top: 5px;
+  vertical-align: center;
+}
+
+.filter-selector {
+  margin-top: 8px;
+  font-size: 0.8rem !important;
+}
+
+.shroom-image {
+  border: 1px dotted #7f5347;
+}
+
+.tag {
+  margin-right: 10px;
+}
