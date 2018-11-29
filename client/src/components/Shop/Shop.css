@@ -1,5 +1,5 @@
-.columns {
-  margin-top: 20px !important;
+.shop .columns {
+  margin-top: 20px;
 }
 
 .product-card {
@@ -10,6 +10,7 @@
   border: 1px dotted #7f5347;
   border-radius: 2%;
   margin: 5px;
+  animation: slideInRight 0.3s ease-out;
 }
 
 .product-image {

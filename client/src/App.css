@@ -2,6 +2,7 @@
 
 * {
   font-family: "Lato", sans-serif;
+  backface-visibility: hidden;
 }
 
 form {
@@ -15,4 +16,48 @@ img {
 
 .section {
   min-height: 82vh;
+  backface-visibility: hidden;
+  animation: fadeIn 1s ease-out;
+}
+
+/* Global Animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInTop {
+  0% {
+    opacity: 0;
+    margin-top: -100px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    margin-left: -100px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    margin-right: -100px;
+  }
+  100% {
+    margin-right: 0px;
+  }
 }

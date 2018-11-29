@@ -5,9 +5,23 @@
   background-repeat: no-repeat;
 }
 
+.hero {
+  animation: fadeIn 1s ease-out;
+}
+
+.hero .title {
+  animation: slideInLeft 1s ease-out;
+}
+
+.hero .subtitle {
+  animation: slideInRight 1s ease-out;
+}
+
 .landing-background {
   background-color: #b4ab9c;
   min-height: 44.3vh;
+
+  backface-visibility: hidden;
 }
 
 .service-panel {
@@ -16,6 +30,10 @@
   border-radius: 2%;
   color: #fff;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.landing-background .columns {
+  animation: slideInTop 1s ease-out;
 }
 
 .service-panel > .subtitle {

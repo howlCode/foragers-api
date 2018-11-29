@@ -20,3 +20,7 @@
 .tag {
   margin-right: 10px;
 }
+
+.shroom-section .column {
+  animation: slideInRight 0.3s ease-out;
+}
